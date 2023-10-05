@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mustace Barber</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+<div id="contenedor" class="img-bg">
+  <header>
+    <nav id="desktop-menu">
+      <div class="logo">
+      <a href="#">
+        <img id="img-logo" src="assets/logo2.png" alt="">
+      </a>
+    </div>
+      <ul class="navBar">
+        <li><a href="#about">Sobre nosotros</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <a href="#">
+          <img id="img-logo" src="assets/logo2.png" alt="">
+        </a>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about">Sobre nosotros</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#contact">Contacto</a></li>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  
+
+  <main id="hide">
+ <aside class="left">
+  
+
+ </aside>
+  
+  <section id="main-left"> 
+
+    <div class="section-container">
+
+      <div class="section__pic-container"><img id="coding-gif" src="" alt="" /></div>
+
+        <div class="details-container">
+           
+           <h1><span>Mustache </span><span>Barber</span> Shop</h1>
+           <h3 class="about-text">
+            Ofrecemos un servicio excepcional de barbería que va más allá de un
+             simple corte de cabello y barba. Somos un espacio donde el estilo se combina con la atención personalizada, creando una experiencia 
+             única para cada uno de nuestros clientes.
+           </h3>
+        </div>
+    </div>
+    
+  </section>
+  
+  <section id="main-right"> 
+    
+    <div class="details-container">
+
+      <h1 class="title">¿Desea sacar una cita?</h1>
+        
+
+        <div class="btn-container">
+          <button
+            class="btn"
+            onclick="window.open(' https://api.whatsapp.com/send?phone=50686586243&text=¡Hola!%20Quiero%20sacar%20una%20cita')">
+            Agendar 
+          </button>
+          
+        </div>
+    </div>
+   
+    
+  </section>
+
+  <aside class="right">
+    <ul id="social-icons">
+      <li><a target="_blank" href="#"><i class="fab fa-facebook"></i></a>
+      </li>
+      <li><a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+      </li>
+      <li><a target="_blank" href="https://api.whatsapp.com/send?phone=50686586243&text=¡Hola!%20Quiero%20sacar%20una%20cita"><i class="fab fa-whatsapp"></i></a>
+      </li>
+    </ul>
+
+  </aside>
+ 
+  
+</main>
+
+</div>
+<script src="script.js"></script>
+
+  </body>
+
+</html>
